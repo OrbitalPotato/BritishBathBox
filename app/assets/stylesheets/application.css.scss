@@ -21,3 +21,16 @@
   font-family: 'Arimo', sans-serif ;
  }
  
+ .navbar, .home-callout {
+      background: #EF3B36;  /* fallback for old browsers */
+      background: -webkit-linear-gradient(left, #FFFFFF, #EF3B36);
+      background: -moz-linear-gradient(left, #FFFFFF, #EF3B36);
+      background: -o-linear-gradient(left, #FFFFFF, #EF3B36);
+      background: linear-gradient(to right, #FFFFFF, #EF3B36);  /* Chrome 10-25, Safari 5.1-6 */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+           
+}   
+   
+ .navbar {
+       border: none;
+    }
+ 
