@@ -24,10 +24,21 @@
 }
     
 .navbar-default .navbar-nav > li > a {
-    color: white;
+    color: blue;
     &:hover {
         color: white;
         opacity: 0.75;
+    }
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+}
+
+.navbar-default .navbar-toggle {
+    border: solid 2px white;
+    &:hover, &:focus {
+       background-color: grey; 
     }
 }
 
