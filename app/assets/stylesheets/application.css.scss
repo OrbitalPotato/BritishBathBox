@@ -18,6 +18,14 @@
        border: none;
     }
     
+.navbar-default .navbar-nav > li > a {
+    color: white;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    color: white;
+    Opacity: 0.75;
+}
  
  .home-callout {
      margin-top: -20px;
