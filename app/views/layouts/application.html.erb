@@ -21,16 +21,16 @@
         <span class="icon-bar"></span>
       </button>
       <a href="/" class="navbar-brand">British Bath Box</a>
-      <%= link_to "/", class: "Navbar-brand" do %>
+      <%= link_to root_path, class: "Navbar-brand" do %>
       
       <% end %>
     </div>
     <div class="collapse navbar-collapse" id="main-nav-collapse">
       <ul class="nav navbar-nav navbar-right">
-        <li><%= link_to "Home", "/" %></li>
-        <li><%= link_to "Subscribe", "/subscribe" %></li>
-        <li><%= link_to "Shop", "/shop" %></li>
-        <li><%= link_to "About", "/about" %></li>
+        <li><%= link_to "Home", root_path %></li>
+        <li><%= link_to "Subscribe", subscribe_path %></li>
+        <li><%= link_to "Shop", shop_path %></li>
+        <li><%= link_to "About", about_path %></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div>
