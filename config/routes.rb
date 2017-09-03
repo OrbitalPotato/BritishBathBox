@@ -3,4 +3,5 @@ Rails.application.routes.draw do
   get 'about', to: 'pages#about'
   get 'subscribe', to: 'pages#subscribe'
   get 'shop', to: 'pages#shop'
+  resources :contacts 
 end
